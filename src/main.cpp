@@ -19,7 +19,7 @@ unsigned long currentTime = 0;
 unsigned long FireON_Message = 0;
 unsigned long FireOFF_Message = 0;
 unsigned int FIRE_CD = 35000; // константа времени на случай,, если отвалится радиосообщение
-unsigned int FIRE_OFF = 4000;
+unsigned int FIRE_OFF = 4000; // Время для затухания пламени
 
 enum DeviceState {
     STATE_IDLE,              // Розжиг
